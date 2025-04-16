@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
-import { Mail, Phone, MapPin, Send, Loader2, Linkedin } from "lucide-react"
+import { Mail, Phone, MapPin, Send, Loader2 } from "lucide-react"
 import Link from "next/link"
 import { LinkedinIcon, GithubIcon } from "lucide-react"
 
@@ -75,6 +75,7 @@ export default function Contact() {
                     <Link
                       href="https://github.com/tyagi0320"
                       className="font-medium text-blue-600 hover:underline"
+                      target="_blank"
                     >
                       github.com/tyagi0320
                     </Link>
@@ -87,6 +88,7 @@ export default function Contact() {
                     <Link
                       href="https://www.linkedin.com/in/harshit-tyagi-412a0a31b"
                       className="font-medium text-blue-600 hover:underline"
+                      target="_blank"
                     >
                       linkedin.com/in/harshit-tyagi-412a0a31b
                     </Link>
@@ -129,7 +131,15 @@ export default function Contact() {
   )
 }
 
-function ContactInfo({ icon, label, value }: { icon: React.ReactNode; label: string; value: React.ReactNode | string }) {
+function ContactInfo({
+  icon,
+  label,
+  value,
+}: {
+  icon: React.ReactNode
+  label: string
+  value: React.ReactNode | string
+}) {
   return (
     <div className="flex items-center gap-4">
       <div className="flex items-center justify-center h-12 w-12 rounded-full bg-primary/10 text-primary">
