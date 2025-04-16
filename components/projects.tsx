@@ -46,7 +46,7 @@ export default function Projects() {
       image: "/portfolio.png",
       tags: ["Next.js", "Tailwind-CSS","framer-motion"],
       demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/tyagi0320/My-Portfolio",
       category: "frontend",
       year: "2025",
     },
