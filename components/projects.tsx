@@ -6,6 +6,7 @@ import { motion, useScroll, useInView } from "framer-motion"
 import { ExternalLink, Github, X, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
+
 import {
   Dialog,
   DialogContent,
@@ -35,8 +36,6 @@ export default function Projects() {
     target: containerRef,
     offset: ["start end", "end start"],
   })
-
-
 
   const projects: Project[] = [
     {
@@ -77,7 +76,7 @@ export default function Projects() {
       id: 4,
       title: "WeatherApp",
       description: "A real time weather forecasting web-application",
-      image: "/Weather.png",
+      image: "/weather.png",
       tags: ["React.js", "Node.js","Bootstrap 5"],
       demoUrl: "https://youtu.be/NdPLatP4YL8",
       githubUrl: "https://github.com/tyagi0320/WeatherApp",
