@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Code, Database, Globe, BrainCircuit, SquarePlus } from "lucide-react"
+import { Code, Database, Globe, BrainCircuit, SquarePlus, Infinity } from "lucide-react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -14,11 +14,11 @@ export default function Skills() {
       id: "language",
       name: "Language",
       icon: <Code className="h-5 w-5" />,
-      skills: [ "C/C++", "HTML/CSS","JavaScript", "Python", "SQL"],
+      skills: [ "C/C++", "HTML/CSS","JavaScript", "Python", "SQL", "Bash"],
     },
     {
       id: "webdev",
-      name: "Web Development",
+      name: "Web Dev",
       icon: <Globe className="h-5 w-5" />,
       skills: ["React.js", "Node.js", "Express", "Flask", "Next.js","Tailwind CSS","Bootstrap","Git/Github","Figma"],
     },
@@ -33,6 +33,12 @@ export default function Skills() {
       name: "AI/ML",
       icon: <BrainCircuit className="h-5 w-5" />,
       skills: ["Pandas", "Numpy", "Scikit-Learn", "Tensorflow", "Matplotlib", "Seaborn", "KNN", "Decision Tree", "SVM","Kaggle"],
+    },
+    {
+      id: "devops/cloud",
+      name: "Devops/Cloud",
+      icon: <Infinity className="h-5 w-5" />,
+      skills: ["Linux", "Networking", "Terraform", "CI/CD", "Docker", "Kubernetes", "Prometheus", "Grafana", "AWS"],
     },
     {
       id: "other",
@@ -52,7 +58,7 @@ export default function Skills() {
 
           <Tabs defaultValue="language" className="w-full" onValueChange={setActiveTab}>
             <div className="flex justify-center mb-8">
-              <TabsList className="grid grid-cols-2 md:grid-cols-5">
+              <TabsList className="grid grid-cols-2 md:grid-cols-6">
                 {skillCategories.map((category) => (
                   <TabsTrigger key={category.id} value={category.id} className="flex items-center gap-2">
                     {category.icon}
