@@ -38,8 +38,19 @@ export default function Projects() {
   })
 
   const projects: Project[] = [
-    {
+      {
       id: 1,
+      title: "NetScope",
+      description: "A lightweight network data visualization tool",
+      image: "/NetScope.png",
+      tags: ["Flask", "HTML/CSS/JS", "Networking"],
+      demoUrl: "NA",
+      githubUrl: "https://github.com/tyagi0320/NetScope",
+      category: "fullstack",
+      year: "2025",
+    },
+    {
+      id: 2,
       title: "Portfolio App",
       description:
         "A personal portfolio website displaying my projects and skills ",
@@ -51,7 +62,7 @@ export default function Projects() {
       year: "2025",
     },
     {
-      id: 2,
+      id: 3,
       title: "eBilling System",
       description:"A full-featured, desktop-based inventory and billing system built using Python and MySQL",
       image: "/eBilling.png",
@@ -62,7 +73,7 @@ export default function Projects() {
       year: "2025",
     },
     {
-      id: 3,
+      id: 4,
       title: "NeuroWell",
       description: "An AI-driven mental wellness platform designed to analyze stress levels using Deep Learning (ANN)",
       image: "/NeuroWell.png",
@@ -73,7 +84,7 @@ export default function Projects() {
       year: "2025",
     },
     {
-      id: 4,
+      id: 5,
       title: "WeatherApp",
       description: "A real time weather forecasting web-application",
       image: "/weather.png",
@@ -84,7 +95,7 @@ export default function Projects() {
       year: "2024",
     },
     {
-      id: 5,
+      id: 6,
       title: "Image Steganography",
       description: "A Python based application to hide/retrieve secret messages within images.",
       image: "/Steganography.png",
@@ -95,7 +106,7 @@ export default function Projects() {
       year: "2024",
     },
     {
-      id: 6,
+      id: 7,
       title: "E-Market",
       description: "A C++(OOPS) based grocery management store.",
       image: "/E-market.png",
@@ -105,6 +116,7 @@ export default function Projects() {
       category: "backend",
       year: "2023",
     },
+    
   ]
 
   const filters = [
