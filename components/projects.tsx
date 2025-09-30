@@ -41,7 +41,7 @@ export default function Projects() {
     {
       id: 1,
       title: "DocBuddy",
-      description: "AI-powered Document SUmmariser",
+      description: "An AI app that lets you chat with PDFs in real time.",
       image: "/DocBuddy.png",
       tags: ["Streamlit", "RAG", "Langchain", "FAISS"],
       demoUrl: "NA",
@@ -52,7 +52,7 @@ export default function Projects() {
      {
       id: 2,
       title: "TrackSphere",
-      description: "Web-activity tracker",
+      description: "A Chrome extension that tracks web activity and visualizes it via Grafana dashboards.",
       image: "/TrackSphere.png",
       tags: ["Chrome-extension", "Kafka", "Docker compose", "Grafana"],
       demoUrl: "NA",
@@ -63,7 +63,7 @@ export default function Projects() {
      {
       id: 3,
       title: "SystemResourceMonitor",
-      description: "Monitor your system",
+      description: "Cloud-based monitoring stack for visualizing system metrics like CPU, memory and network usage on AWS EC2.",
       image: "/SystemResourceMonitor.png",
       tags: ["Terraform", "AWS", "Docker compose", "Grafana/Prometheus"],
       demoUrl: "NA",
@@ -96,7 +96,7 @@ export default function Projects() {
     {
       id: 6,
       title: "NeuroWell",
-      description: "An AI-driven mental wellness platform designed to analyze stress levels using Deep Learning (ANN)",
+      description: "An AI-driven mental wellness platform designed to analyze stress levels using Deep Learning (ANN).",
       image: "/NeuroWell.png",
       tags: ["React.js", "Flask", "ANN"],
       demoUrl: "https://youtu.be/p68xmEoFS84",
@@ -107,7 +107,7 @@ export default function Projects() {
     {
       id: 7,
       title: "WeatherApp",
-      description: "A real time weather forecasting web-application",
+      description: "A real time weather forecasting web-application.",
       image: "/weather.png",
       tags: ["React.js", "Node.js","Bootstrap 5"],
       demoUrl: "https://youtu.be/NdPLatP4YL8",
