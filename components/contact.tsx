@@ -77,7 +77,7 @@ export default function Contact() {
                 <ContactInfo icon={<Phone className="h-5 w-5" />} label="Phone" value="+91 8860701316" />
                 <ContactInfo icon={<MapPin className="h-5 w-5" />} label="Location" value="Delhi-NCR" />
                 <ContactInfo icon={<GithubIcon className="h-5 w-5" />} label="Github" link="https://github.com/tyagi0320" />
-                <ContactInfo icon={<LinkedinIcon className="h-5 w-5" />} label="LinkedIn" link="https://www.linkedin.com/in/harshit-tyagi-412a0a31b" />
+                <ContactInfo icon={<LinkedinIcon className="h-5 w-5" />} label="LinkedIn" link="https://www.linkedin.com/in/harshit-tyagi-cse" />
               </div>
             </div>
 
