@@ -141,8 +141,10 @@ export default function Projects() {
 
   const filters = [
     { id: "all", label: "All" },
-    { id: "devops", label: "Devops" },
+    { id: "backend", label: "Backend" },
     { id: "fullstack", label: "Full Stack" },
+    { id: "devops", label: "Devops" },
+
   ]
 
   const filteredProjects =
