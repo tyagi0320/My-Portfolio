@@ -39,7 +39,7 @@ export default function About() {
                 favorite part of development — <strong className="text-primary">Collaboration</strong> and <strong className="text-primary">Problem-solving</strong>.
               </p>
               <p>
-                Outside of coding, I’m usually into sports, self-growth books, and geo-politics.
+                Outside of coding, I’m usually into sports and geo-politics.
               </p>
             </div>
           </div>

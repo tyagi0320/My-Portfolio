@@ -44,7 +44,7 @@ export default function Hero() {
               </Link>
             </Button>
             <Button variant="outline" size="lg">
-              <a className="flex" href="/Resume.pdf" download={'Resume.pdf'}><Download className="mr-2 h-4 w-4" /> Download Resume</a>
+              <a className="flex" href="/Harshit_Tyagi_Resume.pdf" download={'Harshit_Tyagi_Resume.pdf'}><Download className="mr-2 h-4 w-4" /> Download Resume</a>
             </Button>
           </div>
         </div>

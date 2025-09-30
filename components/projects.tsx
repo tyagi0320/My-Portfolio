@@ -38,8 +38,41 @@ export default function Projects() {
   })
 
   const projects: Project[] = [
-      {
+    {
       id: 1,
+      title: "DocBuddy",
+      description: "AI-powered Document SUmmariser",
+      image: "/DocBuddy.png",
+      tags: ["Streamlit", "RAG", "Langchain", "FAISS"],
+      demoUrl: "NA",
+      githubUrl: "https://github.com/tyagi0320/DocBuddy",
+      category: "fullstack",
+      year: "2025",
+    },
+     {
+      id: 2,
+      title: "TrackSphere",
+      description: "Web-activity tracker",
+      image: "/TrackSphere.png",
+      tags: ["Chrome-extension", "Kafka", "Docker compose", "Grafana"],
+      demoUrl: "NA",
+      githubUrl: "https://github.com/tyagi0320/WebActivityTracker_v2",
+      category: "devops",
+      year: "2025",
+    },
+     {
+      id: 3,
+      title: "SystemResourceMonitor",
+      description: "Monitor your system",
+      image: "/SystemResourceMonitor.png",
+      tags: ["Terraform", "AWS", "Docker compose", "Grafana/Prometheus"],
+      demoUrl: "NA",
+      githubUrl: "https://github.com/tyagi0320/SystemResourceMonitor",
+      category: "devops",
+      year: "2025",
+    },
+      {
+      id: 4,
       title: "NetScope",
       description: "A lightweight network data visualization tool",
       image: "/NetScope.png",
@@ -50,19 +83,7 @@ export default function Projects() {
       year: "2025",
     },
     {
-      id: 2,
-      title: "Portfolio App",
-      description:
-        "A personal portfolio website displaying my projects and skills ",
-      image: "/portfolio.png",
-      tags: ["Next.js", "Tailwind-CSS","framer-motion"],
-      demoUrl: "#",
-      githubUrl: "https://github.com/tyagi0320/My-Portfolio",
-      category: "frontend",
-      year: "2025",
-    },
-    {
-      id: 3,
+      id: 5,
       title: "eBilling System",
       description:"A full-featured, desktop-based inventory and billing system built using Python and MySQL",
       image: "/eBilling.png",
@@ -73,7 +94,7 @@ export default function Projects() {
       year: "2025",
     },
     {
-      id: 4,
+      id: 6,
       title: "NeuroWell",
       description: "An AI-driven mental wellness platform designed to analyze stress levels using Deep Learning (ANN)",
       image: "/NeuroWell.png",
@@ -84,7 +105,7 @@ export default function Projects() {
       year: "2025",
     },
     {
-      id: 5,
+      id: 7,
       title: "WeatherApp",
       description: "A real time weather forecasting web-application",
       image: "/weather.png",
@@ -95,7 +116,7 @@ export default function Projects() {
       year: "2024",
     },
     {
-      id: 6,
+      id: 8,
       title: "Image Steganography",
       description: "A Python based application to hide/retrieve secret messages within images.",
       image: "/Steganography.png",
@@ -106,7 +127,7 @@ export default function Projects() {
       year: "2024",
     },
     {
-      id: 7,
+      id: 9,
       title: "E-Market",
       description: "A C++(OOPS) based grocery management store.",
       image: "/E-market.png",
@@ -115,14 +136,12 @@ export default function Projects() {
       githubUrl: "https://github.com/tyagi0320/E-Market",
       category: "backend",
       year: "2023",
-    },
-    
+    }  
   ]
 
   const filters = [
     { id: "all", label: "All" },
-    { id: "frontend", label: "Frontend" },
-    { id: "backend", label: "Backend" },
+    { id: "devops", label: "Devops" },
     { id: "fullstack", label: "Full Stack" },
   ]
 

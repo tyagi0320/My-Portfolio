@@ -54,7 +54,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Button variant="outline" className="ml-2">
-            <a href="/Resume.pdf">Resume</a>
+            <a href="/Harshit_Tyagi_Resume.pdf">Resume</a>
             
           </Button>
           <Button
@@ -100,7 +100,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Button variant="outline" className="w-full">
-              <a href='/Resume.pdf'>
+              <a href='/Harshit_Tyagi_Resume.pdf'>
                 Resume
               </a>
             </Button>

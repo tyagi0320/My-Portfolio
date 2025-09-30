@@ -14,13 +14,13 @@ export default function Skills() {
       id: "language",
       name: "Language",
       icon: <Code className="h-5 w-5" />,
-      skills: [ "C/C++", "HTML/CSS","JavaScript", "Python", "SQL", "Bash"],
+      skills: [ "C++","JavaScript", "Python", "SQL", "Bash"],
     },
     {
       id: "webdev",
       name: "Web Dev",
       icon: <Globe className="h-5 w-5" />,
-      skills: ["React.js", "Node.js", "Express", "Flask", "Next.js","Tailwind CSS","Bootstrap","Git/Github","Figma"],
+      skills: ["HTML/CSS", "React.js", "Node.js", "Flask", "Bootstrap", "Git/Github", "Figma"],
     },
     {
       id: "database",
@@ -32,7 +32,7 @@ export default function Skills() {
       id: "ai-ml",
       name: "AI/ML",
       icon: <BrainCircuit className="h-5 w-5" />,
-      skills: ["Pandas", "Numpy", "Scikit-Learn", "Tensorflow", "Matplotlib", "Seaborn", "KNN", "Decision Tree", "SVM","Kaggle"],
+      skills: ["Pandas", "Numpy", "Scikit-Learn", "Tensorflow", "Matplotlib", "LangChain", "RAG"],
     },
     {
       id: "devops/cloud",

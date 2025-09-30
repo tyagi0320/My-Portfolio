@@ -149,7 +149,7 @@ function ContactInfo({ icon, label, value, link }: { icon: React.ReactNode, labe
       <div>
         <p className="text-sm text-foreground/60">{label}</p>
         {link ? (
-          <Link href={link} className="font-medium text-blue-600 hover:underline">{link}</Link>
+          <Link href={link} className="font-medium text-white hover:underline">{link}</Link>
         ) : (
           <p className="font-medium">{value}</p>
         )}
